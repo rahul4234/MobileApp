@@ -1,0 +1,276 @@
+
+.Bg-img{
+	 background: linear-gradient(
+      rgb(218, 51, 40, 0.7),
+      rgb(218, 51, 45, 0.7),
+	  rgb(218, 51, 45, 0.7)
+    ),
+    url("images/mobile-bg.jpg");
+
+}
+.Bg-img
+{
+    background-size: cover;
+	background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    padding:45px 0 0px;
+	background-color:red;
+	overflow: hidden;
+	height: 1000px;
+}
+.container{
+	margin:0 auto ;
+	width:1100px;
+	
+}
+.row {
+	display:table;
+	width:100%;
+	clear:both;
+}
+a,a:hover,a:active,
+a:focus, a:link,a:visited{
+	text-decoration:none;
+	display:inline-block;
+	padding:16px;
+}
+
+.bar ul li  {
+	display:inline-block;
+	list-style:none;
+	 padding-top:18px;	
+}
+
+.bar li{
+	display:inline-block;
+	margin-left:10px; 
+	
+} 
+
+.bar ul li a{
+	color:#fff;
+	padding:10px;
+	font-size:16px;
+	font-weight:400;
+	text-transform:uppercase;
+	position:relative;
+	
+}
+.bar li a::after{
+	content:'';
+	background-color:#fff;
+	height:3px;
+	position:absolute;
+	width:0;
+	left:0;
+	bottom:0;
+	transition:all 0.7s linear;
+	
+	
+}
+.bar ul li a:hover::after{
+	width:100%;
+}
+
+.mob{
+	margin:102px 0 0 145px;
+    width: 450px; 	
+	
+}
+
+.pri-heading{
+	font-size:52px;
+	color:#fff;
+	margin:120px 0 40px;
+	font-weight:700;
+}
+
+.para{
+	color:#fff;
+	font-size:36px;
+	font-weight:400;
+	margin-bottom:25px;
+	
+	
+}
+
+.app-store-button {
+  display: inline-flex;
+  align-items: center;
+  background-color: #000;
+  color: white;
+  padding: 12px 24px;
+  border-radius: 40px;
+  font-family: 'Arial', sans-serif;
+  font-size: 16px;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+}
+
+.app-store-button i {
+  margin-right: 10px;
+  font-size: 20px;
+}
+
+.app-store-button:hover {
+  background-color: #222;
+}
+
+.features-heading h2{
+	font-size:52px;
+	font-weight:bold;
+	color:#8a8a8a;
+	text-transform:uppercase;
+	margin-bottom:45px;
+}
+
+
+.features-heading p{
+	color:#3a3a3a;
+	font-size:22px;
+	font-weight:400;
+	marging-bottom:60px;
+	
+}
+
+
+.app-features .feaatures-info h2{
+	color:#1a1a1a;
+	font-size:24px;
+	font-weight:bold;
+	text-transform:upprcase;
+	
+	
+}
+.app-features .feaatures-info p{
+		
+}
+.app-features .features figure{
+    width: 150px;
+   margin-bottom:35px;
+   text-align:center;
+   margin-left:95px
+}
+
+.head2{
+	margin-bottom:45;
+	font-size:24px;
+	text-transform:uppercase;
+	font-weight:700;
+	color:#1a1a1a;
+}
+
+.para2{
+	color:#646464;
+	font-size:18px;
+	font-weight:400;
+    text-align: justify;
+} 
+.Chocolate-section {
+background-size: cover;
+background-position: right;
+background-attachment: fixed;
+}
+.Chocolate-section {
+  background-color: #d7dedc;
+  padding: 195px 0 170px;
+background-image: url('images/cho-bg.jpg');
+background-repeat: no-repeat;
+}
+ .head3{
+	 color:#f55150;
+	 font-size:52px;
+	 font-weight:bold ;
+	 margin-bottom:55px;
+	 text-transform:uppercase;
+	 
+ }
+
+ 
+ .para3{
+	 font-size:24px;
+	 color:black;
+	 margin-bottom:72px;
+ } 
+ 
+.Chocolate-info a{
+	font-size:16px;
+	font-weight:bold;
+	 color:#fff;
+	 background-color:#d9332d;
+	 border-radius:40px;
+	 text-transform:uppercase;
+	 padding:20px 25px;
+ }
+ 
+ .s3{
+	  color:#fff;
+	 font-size:52px;
+	 font-weight:bold ;
+	 margin-bottom:55px;
+	 text-transform:uppercase;
+	 
+ }
+ 
+.footer-section{
+	background-color:#2e2e38; 
+	padding:120px 0 150px;
+ }
+ 
+.logo2{
+	margin-bottom:60px;
+}
+
+.heading-section{
+	color:#fff;
+	font-size:20px;
+	font-weight:700;
+	margin-bottom:25px;
+	text-transform:capitalize;
+}
+
+.Footer li{
+	margin-bottom:25px;
+}
+
+.box{
+  width:55px;
+  height:45px ;
+  background-color:red;
+  color:red;
+  display:inline-block; 
+  border-radius:5px;
+}
+
+.box-info {
+	display:inline-block;
+	margin-left:20px;
+	padding:0 0 15px 0;
+	line-height:center;
+	color:#fff;
+	font-size:15px;
+	font-weight:400;
+	text-transform:capitalize;
+	
+}
+
+.footer-section ul li{
+	list-style:none;
+	
+}
+.post li{
+	color:#fff;
+	font-size:15px;
+	font-weight:700;
+	padding-top:24px;
+
+	
+}
+
+.post p{
+	font-size:11px;
+	font-weight:400;
+	text-transform:lowercase;
+}
+
